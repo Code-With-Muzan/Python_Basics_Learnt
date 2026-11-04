@@ -1,0 +1,60 @@
+Strings
+
+-> String is a datatype function
+-> String is a sequence of characters that is enclosed in double quotes
+-> Strings are of three types - 1] Single Quotes - 'Muzamil'
+				2] Double Quotes - "Muzamil"
+				3] Triple Quotes - '''Muzamil'''
+
+String Slicing - Slicing is a method which is done to get a part of a string
+
+IMPORTANT  - Strings are Immutable (strings can't be changed)
+	   -> Once the string is created the existing string cant be change, instead we have to create a new string
+
+name = "Muzamil"
+       length = 6
+       0123456 - Numbering in programming, index always starts from zero
+      -6-5-4-3-2-1 - Numbering from the end of the given input
+
+-> Numbering in python always start from 0 to -1 and to slice a string we make use of following syntax
+
+                sl = name[first_index:last_index]      Note - This following syntax will include first mentioned index and excludes the last mentioned index
+		example - name[0:3] = Muz
+		          name[0:5] = Muzam
+
+               a = name[-5:-2]  Starts from -5 and end it till -2 but excludes the charcter in position -2 like m in the string
+               b = name[-6:-1]  Starts from -6 and end it till -1 but excludes the charcter in position -1 like l in the string
+
+	print(name[:6])  Starts from 0 if not written and ends at the mentioned last index - Muzamil
+        print(name[0:])  Starts from the mentioned first index 0 and ends at the end of string if not written - Muzamil
+
+-> Slicing with Skip Values
+
+                      sl_2 = name[first_index:last_index:skip value]
+     Note - This following syntax will include first mentioned index and excludes the last mentioned index and starts skipping value from start 
+ 
+Example -
+name_2 = "Muzamil"
+print(name_2[0:5:2])
+It starts from zero and ends and excludes 5 , then from start it skips two character in the string and print the character after 2nd charcter - Mzi
+
+print(name_2[0:4:3])
+It starts from zero and ends and excludes 4 , then from start it skips three character in the string and print the character after 3rd charcter - Ma
+
+-> String Function
+
+print(len()) # len function tells the length of the string
+print(name.endswith("")) - endsswith function tells us about does the following strings, ends with the particular character or not
+print(name.startswith("")) - startswith function tells us about does the following strings, starts with the particular character or not
+print(name.capitalize()) - capitalize function capitalizes the letter in start only . Rest of the character will remain the same 
+print(name.upper()) - upper function uppercase the whole string 
+print(name.lower()) - lower function lowercase the whole string 
+print(name.find("is")) - find function helps us to find the word in a string and returns the index of first character if it finds the word 
+print(name.replace("editor","EDITOR")) - replace function replaces a word from the string  
+
+-> Escape Function 
+
+\n - Inserts a new line
+\t - Inserts a tab space 
+\; - Inserts a semi colon 
+\\ - Inserts a back slash 

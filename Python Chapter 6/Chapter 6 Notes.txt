@@ -1,0 +1,66 @@
+-> Conditionals Expression 
+
+These are Single line comment which evaluates and compares a value and return the following output as true or false 
+Examples - if statement, if-else statement, if-elif-else statement, Nested if-else statement 
+
+# If statement
+
+a = 19
+if(a>=18):
+    print("Good")
+
+# If Else Statement/Ladder
+
+b = 20
+if(b>=18):
+    print("Good")
+else :
+    print("Bad")
+
+# If Elif Else Statement/Ladder 
+
+c = 0
+if(c>=18):
+    print("Good")
+elif(c==0):
+    print("Invalid Number")
+else :
+    print("Bad")
+
+# Nested If Else Statement 
+
+d = 11
+if(d>10):
+    print("Good")
+    if(d>=18):
+        print("Just Good")
+    else :
+        print("But Less Than 18")
+else:
+    print("Bad")
+
+-> Relational Operator
+
+== -> Equal To Operator
+> -> Greater Than Operator 
+< -> Lesser Than Symbol
+>= -> Greater Than Equal To Operator
+<= -> Lesser Than Equal To To Operator
+
+-> Logical Operator 
+
+-> or Operator [If one is true its true]
+print(True or False) = True
+print(False or True) = True
+print(True or False) = True
+print(False or False) = False
+ 
+-> and Operator [If one is false its false]
+print(True  and False)  = False
+print(False and  True)  = False
+print(True and  False)  = False
+print(False and  False)  = False
+
+-> NOT Operator [If one its true then its false and vice versa]
+print(not(False)) = True
+print(not(True)) = False

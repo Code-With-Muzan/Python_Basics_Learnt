@@ -1,0 +1,68 @@
+-> List - In python list acts as a container to store a set values of any data type 
+Example - friends = ["apple", "bannnana", "2", "fog", "true", "false"]
+
+-> Unlike strings, list are mutable (i.e the list can be altered or changed)
+ a = "Muzamil"
+ a[0] = "N" # Error string does not item assignment 
+
+list[0] = "Nahida"
+print(list[0]) # Alters the list and gives the output as Nahida
+
+-> List can be sliced like strings 
+print(list[0:4]) # ["apple", "bannnana", "2", "fog"]
+
+-> Similarities and Difference btw String And List 
+
+Similarities                                
+1] List and String can be sliced 
+2] We can Index in List and String 
+
+Difference 
+1] Strings are Immutable and List are Mutable 
+2] We cannot assign item in string, where we can assign item/variable in List
+3] If we alter in a string using a string function it returns a new string not original 
+  string....but if we alter in list using list function it changes the original list returns the updated original list 
+
+-> List Functions 
+
+list = ["apple", "bannnana", "2", "fog", "true", "false", "354.67"]
+
+ list.append("") - This function appends/or add a variable at the end of the list 
+
+ list.extend("") - Unlike like append, this appends each element of a given string
+
+ list.sort() - This function sorts the list in logical order 
+
+ list.reverse() - this function reverse the order
+
+ list.insert(index,"") - This function inserts a variable at the particular mentioned index  
+
+ list.pop() - This functions removes the variable from the list at the mentioned index of the list
+
+ list.remove("") - Unlike like pop, we have to input the variable from the list in order to remove it
+
+(sum(list)) - This function helps to add up numbers on the whole of a list 
+
+-> Tuples 
+
+Tuples are Immutable like Strings which means it does not support item assignment  
+Tuples are enclosed in curve brackets and List are enclosed in square brackets  
+
+tp = ("apple", "bannnana", "2", "fog", "true", "false", "354.67")  
+li = ["apple", "bannnana", "2", "fog", "true", "false", "354.67"]
+
+-> Empty tuple - a = ()
+
+-> Single Variable Tuple 
+
+b = (3,) = Comma is important so that the python interpreter to understand that it is single variable tuple or the output will be int type 
+
+-> Tuple Methods 
+
+ tp.count("") - This function tells us about the number of times the variable is repeated in the tuple . 
+                If the variable is not present in the tuple, it returns the output as zero 
+
+ 
+tp.index("") - This function tells us about the index of the variable in the tuple 
+               Note - If the following variable is repeated in the tuple, 
+                      then it will say the index of first occurrence of it in the tuple 

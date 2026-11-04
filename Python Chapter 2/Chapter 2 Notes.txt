@@ -1,0 +1,39 @@
+Variable And Datatype
+
+Variable is a name given to a memory location
+Datatype is a set of possible values that a variable can hold
+1] Intergers
+2] String
+3] Boolean
+4] None
+5] Float/Decimal
+
+Rules for naming a variable - 1] it can start only with alphabet or underscore
+                              2] it cannot strat with digits or @
+                              3] no white space in variable name
+
+Operator - it is a symbol or a character which performs operation on the variables or values which is inputted by the user
+ 1] Arithematic operator +,-,/,%
+ 2] Assignment operator ==,+=,-=
+ 3] Logical Operator and,or,not
+ 4] Comparison operator <,>,>=,<=
+
+# or Operator [If one is true its true]
+print(True or False) = True
+print(False or True) = True
+print(True or False) = True
+print(False or False) = False
+ 
+# and Operator [If one is false its false]
+print(True  and False)  = False
+print(False and  True)  = False
+print(True and  False)  = False
+print(False and  False)  = False
+
+# NOT Operator [If one its true then its false and vice versa]
+print(not(False)) = True
+print(not(True)) = False
+
+Type Function and Typecasting
+
+typefunction() - It is a function which identifies what data type is entered by the user and gives information about that data type as output

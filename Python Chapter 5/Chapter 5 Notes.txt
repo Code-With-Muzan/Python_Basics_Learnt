@@ -1,0 +1,89 @@
+-> Dictionaries And Sets 
+
+A Dictionary is a collection of key value pairs 
+
+Syntax of Dictionaries - 
+
+                     variable  =  {                       
+                               "Key1" : Value1,
+                               "Key2" : Value2,     (Comma and Curly brackets matter in order to form a Dictionary)                                                 
+                               "Key3" : Value3,
+                               "Key4" : Value4
+                             }
+
+We can find a value by mentioning its mapped key value - print(variable["Key1"]) # Output - Value1
+
+-> Empty Dictionary
+d = {}
+print(type(d))
+
+-> Properties of Dictionaries 
+
+1] It is Mutable 
+2] It is Indexed 
+3] It is unordered
+4] Keys cannot duplicate 
+
+-> Dictionaries Methods 
+
+print(marks.items()) - This functions gives us the list of keys,values pair tuple 
+print(marks.keys()) - This function gives us the list of keys
+print(marks.values()) - This function gives us the list of values  
+print(marks.get("")) - This funarch the key and retuns the assigned value to it, if not found retuns none 
+marks.update({}) - This function updates the values of keys and it also add a new (key,value) pair  
+
+-> Difference btw get and marks[] fuction 
+
+print(marks.get("")) - If this function does not find the key, it will return the output none 
+print(marks[""]) - But this function will return an error if it does not find the key entered 
+
+-> Extra Dictionaries methods
+
+marks.clear() - This function will remove all key value pairs and will return an empty dictionary
+marks.copy() - This function will return a copy of the dictionary 
+marks.popitem() - This function will pop a random (key,value) pair 
+marks.pop("") - This function will remove a entered (key,value) pair from the dictionary
+len(marks) - This function tells the length of the dictionary
+
+-> Set - It is a collection of well defined data type of unique value with no repetitive elements in it 
+
+-> Properties of Sets 
+
+1] It is unordered 
+2] It is not Indexed 
+3] It cannot contain duplicate values 
+4] There is no way to change items in the sets 
+
+-> s = {1,234,45,76,8,5,5,5,5} - No matter how many times you repeat the same value in the set, it will give the output as an unique value
+                                 Bcz Sets are collection of non repeated elements 
+
+-> Empty Set - s2 = set()
+
+
+-> Difference btw Empty Set and Dictionary 
+
+s3 = set() - Set function and a curve bracket determines an Empty Set...      
+               Note - setfunction is imp,if not used it will determine it as an Empty Tuple 
+
+d = {} - Curly bracket determines an Empty Dictionary 
+
+-> Set Methods 
+
+s.add() - This function adds a new value in a set 
+len(s) - This function tells the length of set 
+s.remove(5) - This function removes a value/element from the set 
+s.pop() - This function will randomly remove a value/element from the set 
+s.clear() - This function clears the whole set 
+
+-> Set Union And Intersection 
+
+s1 = {2,45,34,37,53,73}
+s2 = {2,45,34,73,355,6424,42,442}
+
+s1.union(s2) - This function will combine both the set 
+s1.intersection(s2) - This function will intersect both the sets and give the set of common elements found in both s1 and s2 as output 
+
+s3 = s1 - s2 - This method will differentiate both the sets and give the set of s1 which is not present in s2
+s4 = s2 - s1 - Same Anology but will give the set of s2 which is not present in s1 
+
+

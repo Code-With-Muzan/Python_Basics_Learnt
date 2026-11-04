@@ -1,0 +1,11 @@
+Extension - it is small ending part of file's name which tells the computer what kind of file is it 
+Module - It is a file which contain code written by somebody else and can be imported on our system and use it in our program
+Pip - it is a package manager in Python which helps us to install module and use it in our program
+
+Types of module - 1] Built in Module - pre installed in python  2] External Module - external source or module which is installed in python using pip   
+                     example - os, random                          example - flask, tenser flow 
+
+Python as calculater - terminal window - by REPL method [Read Execute Print and Loop] 
+# - for comments
+
+comments of two types - 1] Single line comment # 2] Multi line comment  (""")(```)
